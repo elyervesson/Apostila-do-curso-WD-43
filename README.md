@@ -1,4 +1,6 @@
 Apostila-do-curso-WD-43
 =======================
 
-Apostila sobre HTML, CSS e JS
+Desenvolvimento Web com HTML, CSS e JavaScript
+
+Link das Apostilas:http://www.caelum.com.br/apostila-html-css-javascript/
