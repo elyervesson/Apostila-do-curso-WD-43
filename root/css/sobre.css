@@ -22,6 +22,52 @@ figcaption {
   font-style: italic;
 }
 
+h1 {
+  padding: 10px;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
 p {
-  margin: 10 auto;
+  padding: 0px 45px;
+  text-indent: 15px;
+}
+
+figure {
+  padding: 15px; /* distancia dentro da imagem */
+  margin: 30px; /* distancia fora da imagem */
+}
+
+figcaption {
+    margin-top: 10px;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+}
+
+#centro-distribuicao {
+  margin-left: auto; /* ajusta a distancia da margem esquerda(centralizar) */
+  margin-right: auto; /* ajusta a distancia da margem direita(centralizar) */
+  width: 550px; /* deixa a borda do tamanho adequado(pouco maior que a imagem) */
+}
+
+#familia-pelho {
+  margin: 0 0 0px 10px;
+  float: right;
+}
+
+#rodape {
+  margin: 30px 0px;
+  padding: 30px 0px;
+}
+
+#rodape img {
+  margin-right: 30px;
+  vertical-align: middle;
+  width: 94px;
 }
