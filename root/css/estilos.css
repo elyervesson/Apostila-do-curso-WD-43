@@ -50,8 +50,37 @@ header {
   right: 0px;
 }
 
+.busca, .menu-departamentos {
+  background-color: #dcdcdc /* cor de fundo*/
+  font-weight: bold; /* todas as letras em negrito */
+  text-transform: uppercase; /* todas as letras em maiusculo */
+  
+  margin-right: 10px;
+  width: 230px;
+}
 
+.busca h2, .busca form, .menu-departamentos h2 {
+  margin: 10xp
+}
 
+.menu-departamentos li {
+  background-color: white;
+  margin-bottom: 1px;
+  padding: 5px 10px;
+}
+
+.menu-departamentos a {
+  color: #333333; /* cor preto */
+  text-decoration: none:
+}
+
+.busca input {
+  vertical-align: middle;
+}
+
+.busca input[type=search] {
+  width: 170px
+}
 
 
 
