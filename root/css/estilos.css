@@ -57,7 +57,6 @@ header {
  
   width: 230px;
   margin-right: 10px;
-  
 }
 
 .busca h3, .busca form, .menu-departamentos h3 {
@@ -81,4 +80,21 @@ header {
 
 .busca input [type=search] {
   width: 170px;
+}
+
+.busca, .menu-departamentos {
+  float: left;
+}
+
+.menu-departamentos { 
+  clear: left;
+  margin-top: 10px;
+}
+
+.destaque {
+  margin-top:10px;
+}
+
+.menu-departamentos dl{
+  margin-bottom: 0px;
 }
