@@ -51,48 +51,34 @@ header {
 }
 
 .busca, .menu-departamentos {
-  background-color: #dcdcdc /* cor de fundo*/
-  font-weight: bold; /* todas as letras em negrito */
-  text-transform: uppercase; /* todas as letras em maiusculo */
-  
-  margin-right: 10px;
+  background-color: #dcdcdc;
+  text-transform: uppercase;
+  font-weight: bold;
+ 
   width: 230px;
+  margin-right: 10px;
+  
 }
 
-.busca h2, .busca form, .menu-departamentos h2 {
-  margin: 10xp
+.busca h3, .busca form, .menu-departamentos h3 {
+  margin: 10px
 }
 
-.menu-departamentos li {
+.menu-departamentos dt {
   background-color: white;
   margin-bottom: 1px;
   padding: 5px 10px;
 }
 
 .menu-departamentos a {
-  color: #333333; /* cor preto */
-  text-decoration: none:
+  color: #333333;
+  text-decoration: none;
 }
 
 .busca input {
   vertical-align: middle;
 }
 
-.busca input[type=search] {
-  width: 170px
+.busca input [type=search] {
+  width: 170px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
