@@ -103,7 +103,7 @@ header {
 .painel {
   margin: 10px 0px;
   padding: 10px;
-  width: 445px;
+  width: 450px;
 }
 
 .novidades {
@@ -137,9 +137,19 @@ header {
   text-align: center;
   text-decoration: none;
 }
+.painel ol {
+  padding-left: 0px;
+}
 
 .novidades {
   background-color: #f5dcdc;
 }
 
-.mais
+.mais-vendidos {
+  background-color: #dcdcf5;
+}
+
+.painel figure {
+  float: left;
+  margin-right; 10px;
+}
