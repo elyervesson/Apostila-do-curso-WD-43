@@ -103,7 +103,7 @@ header {
 .painel {
   margin: 10px 0px;
   padding: 10px;
-  width: 450px;
+  width: 445px;
 }
 
 .novidades {
@@ -122,23 +122,20 @@ header {
   margin: 2px;
   padding-bottom: 10px;
 }
-
-.painel h3 {
-  font-size: 24px; 
-  font-weight: bold;
-  text-transform: uppercase;
-  
-  margin-bottom: 10px;
-}
-
+ 
+ .painel h3 {
+   font-size: 24px;
+   font-weight: bold;
+   text-transform: uppercase;
+   
+   margin: auto 10px;
+ }
+ 
 .painel a {
-  color: #333333;
+  color: #333;
   font-size: 14px;
   text-align: center;
   text-decoration: none;
-}
-.painel ol {
-  padding-left: 0px;
 }
 
 .novidades {
@@ -148,8 +145,17 @@ header {
 .mais-vendidos {
   background-color: #dcdcf5;
 }
+/* as instruções do site acabam aqui mais a minha pagina ainda não esta formatada corretamente */
+/* gambirra */
+
+.painel ol {
+  padding-left: 0px;
+  margin: auto 0px;
+}
 
 .painel figure {
-  float: left;
-  margin-right; 10px;
+  margin: 0px;
 }
+
+
+/* garbiarra */
