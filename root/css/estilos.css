@@ -156,6 +156,44 @@ header {
 .painel figure {
   margin: 0px;
 }
-
-
 /* garbiarra */
+
+/* fim da section 2 */
+
+footer {
+  background-image: url("../img/fundo-rodape.png");
+  clear: both; /* faz o rodape voltar para o seu lugar correto */
+}
+  /* imagens */
+.social a[href*="facebook.com"] {
+  background-image: url(../img/facebook.png);
+}
+
+.social a[href*="twitter.com"] {
+  background-image: url(../img/twitter.png);
+}
+
+.social a[href*="plus.google.com"] {
+  background-image: url(../img/googleplus.png);
+}
+  /* imagens */
+ 
+.social li a {
+  /* tamanho da imagem */
+  height: 32px;
+  width: 32px;
+  
+  /* image replacement */
+  display: block; /* deixa apenas uma imagem de cada  */
+  text-indent: -9999px;/* tira as letras dos links da tela */
+}  
+
+
+
+/* PAREI EM 
+ * Último passo: posicionar os elementos internos do rodapé apropriadamente.
+ * Vamos posicionar os ícones sociais absolutamente à direita com position:absolute. 
+ * Para isso, o container do nosso rodapé precisa estar posicionado. Aproveite também 
+ * e coloque um espaçamento interno:
+/*
+
