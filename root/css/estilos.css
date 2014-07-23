@@ -95,9 +95,6 @@ header {
   margin-top:10px;
 }
 
-.menu-departamentos dl{
-  margin-bottom: 0px;
-}
 /* fim da section 1*/
 
 .painel {
@@ -188,12 +185,20 @@ footer {
   text-indent: -9999px;/* tira as letras dos links da tela */
 }  
 
+footer {
+  padding: 20px 0px; /* adiciona um espaço a mais acima do logo Mirror fashion */
+}
 
+fotter .container {
+  position: relative;
+}
 
-/* PAREI EM 
- * Último passo: posicionar os elementos internos do rodapé apropriadamente.
- * Vamos posicionar os ícones sociais absolutamente à direita com position:absolute. 
- * Para isso, o container do nosso rodapé precisa estar posicionado. Aproveite também 
- * e coloque um espaçamento interno:
-/*
+.social { /* posicionar os icones sociais a direita(do jeito do site não deu certo) */
+  position: relative;
+  bottom: 50px;
+}
 
+.social li {
+  float: right; /* deixa os icones um ao lado do outro (ate entao eles estavam um em cima do outro)*/
+  margin-left: 25px;
+}
