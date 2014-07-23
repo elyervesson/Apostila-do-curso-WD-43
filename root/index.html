@@ -3,7 +3,6 @@
 	<head>
 		<title>Mirror Fashion</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/estilos.css">
 	</head>
 	<body>
@@ -33,8 +32,8 @@
 				<section class="busca">
 					<h3>Busca</h3>
 					
-					<form>
-						<input type="search">
+					<form action="http://www.google.com.br/search" id="form-busca"><!-- usa o google como motor de busca -->
+						<input type="search" name="q" id="q">
 						<input type="image" src="img/busca.png">
 					</form>
 				</section><!-- fim .busca -->
@@ -207,5 +206,6 @@
 				
 				</div>
 		</footer>
+		<script src="js/home.js"></script>
 	</body>
 </html>
